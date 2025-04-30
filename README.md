@@ -36,15 +36,15 @@ The dataset (train.csv) is already included in the repository.
 
 Run the notebook PredictPodcastListeningTime.ipynb step-by-step to:
 
-  Load and explore the dataset
+  - Load and explore the dataset
 
-  Preprocess the data (scaling, feature selection, PCA)
+  - Preprocess the data (scaling, feature selection, PCA)
 
-  Train various regression models (Lasso, Ridge, SVR, MLP, XGBoost, LightGBM, etc.)
+  - Train various regression models (Lasso, Ridge, SVR, MLP, XGBoost, LightGBM, etc.)
 
-  Ensemble models using VotingRegressor for better accuracy
+  - Ensemble models using VotingRegressor for better accuracy
 
-  Evaluate results using RMSE and compare model performance
+  - Evaluate results using RMSE and compare model performance
 
 
 ## Technologies Used
