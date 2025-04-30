@@ -8,20 +8,27 @@ This project aims to predict how long a user is likely to listen to a podcast ep
 
 ## Installation & Setup
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/podcast-listening-time-predictor.git
-cd podcast-listening-time-predictor 
+1. Clone the repository:
 
-2. **Install the required dependencies**
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm
+  ```bash
+  git clone https://github.com/SuSanee/podcast-predictor
+  ```
 
-3. **Run the notebook**
+2. Navigate to the project directory
+
+  ```bash
+  cd podcast-predictor
+  ```
+
+3. Install the required dependencies
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost
+```
+
+4. Run the notebook
 ```bash
 jupyter notebook PredictPodcastListeningTime.ipynb 
-
----
+```
 
 ## Usage
 
@@ -29,15 +36,15 @@ The dataset (train.csv) is already included in the repository.
 
 Run the notebook PredictPodcastListeningTime.ipynb step-by-step to:
 
-Load and explore the dataset
+  Load and explore the dataset
 
-Preprocess the data (scaling, feature selection, PCA)
+  Preprocess the data (scaling, feature selection, PCA)
 
-Train various regression models (Lasso, Ridge, SVR, MLP, XGBoost, LightGBM, etc.)
+  Train various regression models (Lasso, Ridge, SVR, MLP, XGBoost, LightGBM, etc.)
 
-Ensemble models using VotingRegressor for better accuracy
+  Ensemble models using VotingRegressor for better accuracy
 
-Evaluate results using RMSE and compare model performance
+  Evaluate results using RMSE and compare model performance
 
 
 ## Technologies Used
